@@ -1,3 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F1EAE0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 30px;
+    background-color: #405C43;
+}
+
 img[alt="LionBots Logo"] {
     width: 100px;
     height: 50px;
@@ -5,6 +30,67 @@ img[alt="LionBots Logo"] {
     max-height: 100%;
     object-fit: contain;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    padding: 5px 12px;
+    border-radius: 25px;
+}
+
+.search-bar input {
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background: transparent;
+    width: 250px;
+}
+
+.search-button {
+    border: none;
+    background: transparent;
+    color: #333333;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.search-button span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .sponsor-photo>img{
     max-width: 100%;
     max-height: 100%;
@@ -21,10 +107,6 @@ img[alt="LionBots Logo"] {
     margin-right: auto;
 }
 
-#endfooter {
-    background-color: lightgray;
-}
-
 #endfooter::after {
     /* makes the background work. shamelessly copied from oaklandchinatownt201.org. don't know why this works but it does.*/
     content: '';
@@ -32,9 +114,11 @@ img[alt="LionBots Logo"] {
     clear: both;
 }
 
-#endfooter>div {
-    max-width: 50%;
-    float: left;
+#endfooter {
+    background-color: #373737;
+    color: #fff;
     text-align: center;
-    padding: 69px;
+    padding: 20px;
+    margin-top: auto;
+    width: 100%
 }
