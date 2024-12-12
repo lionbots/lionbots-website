@@ -20,3 +20,21 @@ img[alt="LionBots Logo"] {
     margin-left: auto;
     margin-right: auto;
 }
+
+#endfooter {
+    background-color: lightgray;
+}
+
+#endfooter::after {
+    /* makes the background work. shamelessly copied from oaklandchinatownt201.org. don't know why this works but it does.*/
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#endfooter>div {
+    max-width: 50%;
+    float: left;
+    text-align: center;
+    padding: 69px;
+}
