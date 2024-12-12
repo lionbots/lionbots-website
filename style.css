@@ -5,18 +5,17 @@ img[alt="LionBots Logo"] {
     max-height: 100%;
     object-fit: contain;
 }
-.sponsor-photo, img{
-    width: 100px;
+.sponsor-photo>img{
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+    width: 100px;
 }
 
-.aboutUsPhoto, img{
+.aboutUsPhoto>img{
     width: 600px;
     max-width: 100%;
-    max-height: 100%
-    fit-content;
+    max-height: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
