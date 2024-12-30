@@ -23,6 +23,11 @@ body {
     background-color: #405C43;
 }
 
+#space {
+    /*This let the header not block the page text in the beginning*/
+    padding-bottom: 70px;
+}
+
 img[alt="LionBots Logo"] {
     width: 100px;
     height: 50px;
