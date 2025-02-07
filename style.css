@@ -109,10 +109,10 @@ h1.sponsor-header {
 }
 
 #container {
-    height: auto; 
+    height: auto;
     padding-left: 15%;
     text-align: left;
-    padding-top: 100px; 
+    padding-top: 100px;
 }
 
 #container h1 {
@@ -137,7 +137,7 @@ h1.sponsor-header {
 }
 
 #sponsors h1 {
-    font-size: 2rem; 
+    font-size: 2rem;
     color: #405C43;
     margin-bottom: 20px;
 }
@@ -145,7 +145,7 @@ h1.sponsor-header {
 #sponsors img {
     max-width: 150px;
     height: auto;
-    margin: 0 10px; 
+    margin: 0 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -218,4 +218,36 @@ h1.sponsor-header {
     padding: 20px;
     margin-top: auto;
     width: 100%
+}
+
+#aboutUsHeading {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    color: #023020;
+    font-size: large;
+
+}
+
+#aboutUsPhoto {
+    float: center;
+    width: 200%;
+    transform: scale(1.5);
+    max-width: fit-content;
+    height: auto;
+}
+
+#aboutUsInfo {
+    margin-left: 25%;
+    padding: 20px;
+    width: 50%;
+    font-size: large;
+}
+
+#aboutUsOri {
+    text-align: left;
+    padding: 20px;
+    font-size: large;
+    margin-left: 25%;
+    width: 50%;
 }
