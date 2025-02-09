@@ -129,6 +129,7 @@ h1.sponsor-header {
 #container img {
     max-width: 100%;
     max-height: 100%;
+    float: right;
 }
 
 #sponsors {
@@ -250,4 +251,32 @@ h1.sponsor-header {
     font-size: large;
     margin-left: 25%;
     width: 50%;
+}
+
+#motto {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    border-right: 3px solid black;
+    animation: typing 5s steps(45, end) forwards;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+        border-right: 3px solid black;
+    }
+    to {
+        width: 90%;
+        border-right: 3px solid black;
+    }
+}
+
+@keyframes blinkCursor {
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: transparent;
+    }
 }
