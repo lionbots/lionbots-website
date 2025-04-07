@@ -258,17 +258,21 @@ h1.sponsor-header {
     overflow: hidden;
     display: inline-block;
     border-right: 3px solid black;
-    animation: typing 5s steps(45, end) forwards;
+    animation: typing 2s steps(45, end) forwards;
 }
 
 @keyframes typing {
-    from {
+    0% {
         width: 0;
         border-right: 3px solid black;
     }
-    to {
+    99% {
         width: 90%;
         border-right: 3px solid black;
+    }
+    100% {
+        width: 100%;
+        border-right: 0;
     }
 }
 
