@@ -1,0 +1,75 @@
+#container {
+    height: auto;
+    padding-left: 15%;
+    text-align: left;
+    padding-top: 100px;
+}
+
+#container h1 {
+    font-size: 3rem;
+    color: #405C43;
+    margin-bottom: 10px;
+}
+
+#container p {
+    font-size: 1.5rem;
+    color: #405C43;
+}
+
+#container img {
+    max-width: 100%;
+    max-height: 100%;
+    float: right;
+}
+
+#motto {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    border-right: 3px solid black;
+    animation: typing 2s steps(45, end) forwards;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+        border-right: 3px solid black;
+    }
+    99% {
+        width: 90%;
+        border-right: 3px solid black;
+    }
+    100% {
+        width: 100%;
+        border-right: 0;
+    }
+}
+
+@keyframes blinkCursor {
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: transparent;
+    }
+}
+
+
+#sponsors {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#sponsors h1 {
+    font-size: 2rem;
+    color: #405C43;
+    margin-bottom: 20px;
+}
+
+#sponsors img {
+    max-width: 150px;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
