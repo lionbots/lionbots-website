@@ -5,10 +5,11 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
     background-color: #F1EAE0;
+}
+
+main {
+    margin: 0 10vw;
 }
 
 .header {
@@ -25,7 +26,7 @@ body {
 
 #space {
     /*This let the header not block the page text in the beginning*/
-    padding-bottom: 70px;
+    padding-bottom: 90px;
 }
 
 img[alt="LionBots Logo"] {
@@ -96,12 +97,6 @@ img[alt="LionBots Logo"] {
     justify-content: center;
 }
 
-#endfooter::after {
-    /* makes the background work. shamelessly copied from oaklandchinatownt201.org. don't know why this works but it does.*/
-    content: '';
-    display: table;
-    clear: both;
-}
 
 #endfooter {
     background-color: #373737;
